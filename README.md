@@ -1,4 +1,4 @@
-** Como Instalar
+Como Instalar (Cargo.toml)
 
 ''' Crate
 [dependencies]
@@ -7,7 +7,7 @@ validador_crates_rust_cursoDIO = "0.1.0"
 
 '''
 
-** Como utilizar
+Como utilizar
 
 ''' rust
 use std::io;
