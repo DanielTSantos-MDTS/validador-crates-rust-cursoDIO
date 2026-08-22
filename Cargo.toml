@@ -1,6 +1,12 @@
 [package]
 name = "validador_crates_rust_cursoDIO"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
+authors = ["Daniel <danieltsantos1618@gmail.com"]
+description = "Aula de como criar uma caixa no crates.io"
+license = "Free"
+repository = "https://github.com/DanielTSantos-MDTS/validador-crates-rust-cursoDIO.git"
+documentation = "https://github.com/DanielTSantos-MDTS/validador-crates-rust-cursoDIO/blob/main/README.md"
+homepage = "https://github.com/DanielTSantos-MDTS/validador-crates-rust-cursoDIO.git"
 
 [dependencies]
