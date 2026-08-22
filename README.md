@@ -2,7 +2,7 @@ Como Instalar (Cargo.toml)
 
 ''' Crate
 [dependencies]
-validador_crates_rust_cursoDIO = "1.0.0"
+validador_crates_rust_cursoDIO = "1.0.1"
 
 # Busca do crates.io
 
@@ -25,7 +25,7 @@ println!("Digite um cpf:");
 
     let texto_limpo = cpf.trim();
 
-    let validado = vd:validadores::cpf(texto_limpo);
+    let validado = vd::validadores::cpf(texto_limpo);
 
     if validado {
         println!("O CPF {}, é válido", texto_limpo);
@@ -43,7 +43,7 @@ println!("Digite um cnpj:");
 
     let texto_limpo = cnpj.trim();
 
-    let validado = vd:validadores::cnpj(texto_limpo);
+    let validado = vd::validadores::cnpj(texto_limpo);
 
     if validado {
         println!("O CNPJ {}, é válido", texto_limpo);
