@@ -3,6 +3,7 @@ Como Instalar (Cargo.toml)
 ''' Crate
 [dependencies]
 validador_crates_rust_cursoDIO = "0.1.0"
+
 # Busca do crates.io
 
 '''
@@ -14,7 +15,7 @@ use std::io;
 use validador_crates_rust_cursoDIO::validar_cpf as vd;
 
 fn main() {
-    println!("Digite um cpf:");
+println!("Digite um cpf:");
 
     let mut cpf = String::new();
 
@@ -31,4 +32,5 @@ fn main() {
     } else {
         println!("O CPF {}, é inválido", texto_limpo);
     }
+
 }
