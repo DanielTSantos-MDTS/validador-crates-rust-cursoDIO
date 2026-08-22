@@ -1,6 +1,6 @@
 [package]
 name = "validador_crates_rust_cursoDIO"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2024"
 authors = ["Daniel <danieltsantos1618@gmail.com"]
 description = "Aula de como criar uma caixa no crates.io"
